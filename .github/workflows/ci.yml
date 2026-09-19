@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      # 刻意不裝 requirements.txt。anomalib 連同 torch 是 2 到 3 GB，
+      # 而且沒有 MVTec AD 資料集的話什麼都跑不起來（資料集是 CC BY-NC-SA，
+      # 不進版控）。所以 CI 驗證的是另一件事：落盤的結果檔完整、自洽，
+      # 而且 README 的表格沒有跟資料脫節。那才是這個 repo 實際會壞掉的地方。
+      - name: 安裝測試相依
+        run: pip install pytest
+
+      - name: 執行測試
+        run: python -m pytest -q

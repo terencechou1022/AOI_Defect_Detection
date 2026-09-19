@@ -1,0 +1,8 @@
+# 執行 prepare_data.py 與 run_benchmark.py 所需。torch 與 torchvision
+# 由 anomalib 帶進來，不另外釘版本以免與 CPU wheel 打架。
+anomalib[cpu]==2.6.1
+pyarrow>=16
+huggingface_hub>=1.0
+
+# 測試只讀 results/ 底下的 JSON，不需要上面任何一項。
+pytest>=8
