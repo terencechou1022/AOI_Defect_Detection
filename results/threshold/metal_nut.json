@@ -1,0 +1,46 @@
+{
+  "category": "metal_nut",
+  "n_normal": 22,
+  "n_defect": 93,
+  "score_min": 37.7868,
+  "score_max": 62.643,
+  "best_by_cost_ratio": {
+    "1": {
+      "threshold": 43.5004,
+      "fn": 0,
+      "fp": 1,
+      "cost": 1,
+      "recall": 1.0,
+      "fpr": 0.0455
+    },
+    "5": {
+      "threshold": 43.5004,
+      "fn": 0,
+      "fp": 1,
+      "cost": 1,
+      "recall": 1.0,
+      "fpr": 0.0455
+    },
+    "10": {
+      "threshold": 43.5004,
+      "fn": 0,
+      "fp": 1,
+      "cost": 1,
+      "recall": 1.0,
+      "fpr": 0.0455
+    },
+    "50": {
+      "threshold": 43.5004,
+      "fn": 0,
+      "fp": 1,
+      "cost": 1,
+      "recall": 1.0,
+      "fpr": 0.0455
+    }
+  },
+  "zero_miss": {
+    "threshold": 43.5004,
+    "fp": 1,
+    "fp_rate": 0.0455
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "category": "metal_nut",
+  "method": "padim",
+  "image_size": 256,
+  "coreset_ratio": null,
+  "train_seconds": 47.8,
+  "buffer_mb": 157.8,
+  "image_AUROC": 0.913,
+  "image_F1Score": 0.9355,
+  "pixel_AUROC": 0.9488,
+  "pixel_F1Score": 0.6658,
+  "pixel_AUPRO": 0.8458,
+  "effective_hw": [
+    256,
+    256
+  ],
+  "ms_min": 92,
+  "ms_p50": 130,
+  "ms_p90": 136
+}

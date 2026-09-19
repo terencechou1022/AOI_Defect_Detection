@@ -1,0 +1,46 @@
+{
+  "category": "transistor",
+  "n_normal": 60,
+  "n_defect": 40,
+  "score_min": 35.5897,
+  "score_max": 69.3339,
+  "best_by_cost_ratio": {
+    "1": {
+      "threshold": 43.2279,
+      "fn": 3,
+      "fp": 1,
+      "cost": 4,
+      "recall": 0.925,
+      "fpr": 0.0167
+    },
+    "5": {
+      "threshold": 39.7593,
+      "fn": 0,
+      "fp": 10,
+      "cost": 10,
+      "recall": 1.0,
+      "fpr": 0.1667
+    },
+    "10": {
+      "threshold": 39.7593,
+      "fn": 0,
+      "fp": 10,
+      "cost": 10,
+      "recall": 1.0,
+      "fpr": 0.1667
+    },
+    "50": {
+      "threshold": 39.7593,
+      "fn": 0,
+      "fp": 10,
+      "cost": 10,
+      "recall": 1.0,
+      "fpr": 0.1667
+    }
+  },
+  "zero_miss": {
+    "threshold": 39.7593,
+    "fp": 10,
+    "fp_rate": 0.1667
+  }
+}

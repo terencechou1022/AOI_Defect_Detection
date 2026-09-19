@@ -1,0 +1,46 @@
+{
+  "category": "screw",
+  "n_normal": 41,
+  "n_defect": 119,
+  "score_min": 31.7761,
+  "score_max": 53.4085,
+  "best_by_cost_ratio": {
+    "1": {
+      "threshold": 35.3904,
+      "fn": 9,
+      "fp": 3,
+      "cost": 12,
+      "recall": 0.9244,
+      "fpr": 0.0732
+    },
+    "5": {
+      "threshold": 33.3612,
+      "fn": 0,
+      "fp": 21,
+      "cost": 21,
+      "recall": 1.0,
+      "fpr": 0.5122
+    },
+    "10": {
+      "threshold": 33.3612,
+      "fn": 0,
+      "fp": 21,
+      "cost": 21,
+      "recall": 1.0,
+      "fpr": 0.5122
+    },
+    "50": {
+      "threshold": 33.3612,
+      "fn": 0,
+      "fp": 21,
+      "cost": 21,
+      "recall": 1.0,
+      "fpr": 0.5122
+    }
+  },
+  "zero_miss": {
+    "threshold": 33.3612,
+    "fp": 21,
+    "fp_rate": 0.5122
+  }
+}

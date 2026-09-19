@@ -1,0 +1,17 @@
+# MVTec AD 是 CC BY-NC-SA 4.0（非商業），不進版控。
+# 使用者自行執行 prepare_data.py 取得，見 README 的授權段。
+datasets/
+hf_cache/
+
+# 訓練產物。checkpoint 動輒數百 MB，results/runs 實測 2.0 GB、spike 241 MB。
+# 但 results/benchmark 與 results/threshold 只有幾十 KB，那是 README 引用的
+# 數據來源，要進版控讓讀者能自己核對表格。
+results/runs/
+results/spike/
+results/*.log
+*.ckpt
+
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/

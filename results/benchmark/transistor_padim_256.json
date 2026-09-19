@@ -1,0 +1,20 @@
+{
+  "category": "transistor",
+  "method": "padim",
+  "image_size": 256,
+  "coreset_ratio": null,
+  "train_seconds": 62.9,
+  "buffer_mb": 157.8,
+  "image_AUROC": 0.9383,
+  "image_F1Score": 0.8235,
+  "pixel_AUROC": 0.9707,
+  "pixel_F1Score": 0.6129,
+  "pixel_AUPRO": 0.8917,
+  "effective_hw": [
+    256,
+    256
+  ],
+  "ms_min": 123,
+  "ms_p50": 143,
+  "ms_p90": 173
+}

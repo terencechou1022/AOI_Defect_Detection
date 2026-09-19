@@ -1,0 +1,20 @@
+{
+  "category": "screw",
+  "method": "padim",
+  "image_size": 256,
+  "coreset_ratio": null,
+  "train_seconds": 84.6,
+  "buffer_mb": 157.8,
+  "image_AUROC": 0.8627,
+  "image_F1Score": 0.8984,
+  "pixel_AUROC": 0.9801,
+  "pixel_F1Score": 0.2263,
+  "pixel_AUPRO": 0.9177,
+  "effective_hw": [
+    256,
+    256
+  ],
+  "ms_min": 125,
+  "ms_p50": 137,
+  "ms_p90": 141
+}

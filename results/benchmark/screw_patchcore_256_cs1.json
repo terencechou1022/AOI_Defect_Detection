@@ -1,0 +1,20 @@
+{
+  "category": "screw",
+  "method": "patchcore",
+  "image_size": 256,
+  "coreset_ratio": 0.01,
+  "train_seconds": 835.7,
+  "buffer_mb": 19.4,
+  "image_AUROC": 0.966,
+  "image_F1Score": 0.9437,
+  "pixel_AUROC": 0.9809,
+  "pixel_F1Score": 0.3869,
+  "pixel_AUPRO": 0.9199,
+  "effective_hw": [
+    256,
+    256
+  ],
+  "ms_min": 398,
+  "ms_p50": 428,
+  "ms_p90": 748
+}

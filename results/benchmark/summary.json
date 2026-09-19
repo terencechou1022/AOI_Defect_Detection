@@ -1,0 +1,162 @@
+[
+  {
+    "category": "metal_nut",
+    "method": "padim",
+    "image_size": 256,
+    "coreset_ratio": null,
+    "train_seconds": 47.8,
+    "buffer_mb": 157.8,
+    "image_AUROC": 0.913,
+    "image_F1Score": 0.9355,
+    "pixel_AUROC": 0.9488,
+    "pixel_F1Score": 0.6658,
+    "pixel_AUPRO": 0.8458,
+    "effective_hw": [
+      256,
+      256
+    ],
+    "ms_min": 92,
+    "ms_p50": 130,
+    "ms_p90": 136
+  },
+  {
+    "category": "metal_nut",
+    "method": "patchcore",
+    "image_size": 256,
+    "coreset_ratio": 0.01,
+    "train_seconds": 341.7,
+    "buffer_mb": 13.4,
+    "image_AUROC": 0.999,
+    "image_F1Score": 0.9892,
+    "pixel_AUROC": 0.987,
+    "pixel_F1Score": 0.8441,
+    "pixel_AUPRO": 0.9421,
+    "effective_hw": [
+      256,
+      256
+    ],
+    "ms_min": 339,
+    "ms_p50": 359,
+    "ms_p90": 394
+  },
+  {
+    "category": "screw",
+    "method": "padim",
+    "image_size": 256,
+    "coreset_ratio": null,
+    "train_seconds": 84.6,
+    "buffer_mb": 157.8,
+    "image_AUROC": 0.8627,
+    "image_F1Score": 0.8984,
+    "pixel_AUROC": 0.9801,
+    "pixel_F1Score": 0.2263,
+    "pixel_AUPRO": 0.9177,
+    "effective_hw": [
+      256,
+      256
+    ],
+    "ms_min": 125,
+    "ms_p50": 137,
+    "ms_p90": 141
+  },
+  {
+    "category": "screw",
+    "method": "patchcore",
+    "image_size": 256,
+    "coreset_ratio": 0.01,
+    "train_seconds": 835.7,
+    "buffer_mb": 19.4,
+    "image_AUROC": 0.966,
+    "image_F1Score": 0.9437,
+    "pixel_AUROC": 0.9809,
+    "pixel_F1Score": 0.3869,
+    "pixel_AUPRO": 0.9199,
+    "effective_hw": [
+      256,
+      256
+    ],
+    "ms_min": 398,
+    "ms_p50": 428,
+    "ms_p90": 748
+  },
+  {
+    "category": "transistor",
+    "method": "padim",
+    "image_size": 256,
+    "coreset_ratio": null,
+    "train_seconds": 62.9,
+    "buffer_mb": 157.8,
+    "image_AUROC": 0.9383,
+    "image_F1Score": 0.8235,
+    "pixel_AUROC": 0.9707,
+    "pixel_F1Score": 0.6129,
+    "pixel_AUPRO": 0.8917,
+    "effective_hw": [
+      256,
+      256
+    ],
+    "ms_min": 123,
+    "ms_p50": 143,
+    "ms_p90": 173
+  },
+  {
+    "category": "transistor",
+    "method": "padim",
+    "image_size": 384,
+    "coreset_ratio": null,
+    "train_seconds": 95.3,
+    "buffer_mb": 355.1,
+    "image_AUROC": 0.9092,
+    "image_F1Score": 0.8101,
+    "pixel_AUROC": 0.9593,
+    "pixel_F1Score": 0.5754,
+    "pixel_AUPRO": 0.88,
+    "effective_hw": [
+      384,
+      384
+    ],
+    "ms_min": 240,
+    "ms_p50": 295,
+    "ms_p90": 359
+  },
+  {
+    "category": "transistor",
+    "method": "padim",
+    "image_size": 512,
+    "coreset_ratio": null,
+    "train_seconds": 156.6,
+    "buffer_mb": 631.3,
+    "image_AUROC": 0.8817,
+    "image_F1Score": 0.8169,
+    "pixel_AUROC": 0.9372,
+    "pixel_F1Score": 0.5229,
+    "pixel_AUPRO": 0.8437,
+    "effective_hw": [
+      512,
+      512
+    ],
+    "ms_min": 456,
+    "ms_p50": 484,
+    "ms_p90": 497
+  },
+  {
+    "category": "transistor",
+    "method": "patchcore",
+    "image_size": 256,
+    "coreset_ratio": 0.01,
+    "train_seconds": 493.6,
+    "buffer_mb": 12.9,
+    "image_AUROC": 0.9896,
+    "image_F1Score": 0.9351,
+    "pixel_AUROC": 0.9672,
+    "pixel_F1Score": 0.6053,
+    "pixel_AUPRO": 0.9348,
+    "effective_hw": [
+      256,
+      256
+    ],
+    "ms_min": 379,
+    "ms_p50": 411,
+    "ms_p90": 451
+  }
+]
