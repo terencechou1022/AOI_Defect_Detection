@@ -1,5 +1,7 @@
 # 工業產品表面瑕疵檢測（AOI）
 
+[![CI](https://github.com/terencechou1022/AOI_Defect_Detection/actions/workflows/ci.yml/badge.svg)](https://github.com/terencechou1022/AOI_Defect_Detection/actions/workflows/ci.yml)
+
 以無監督異常偵測對產品影像輸出正常／異常判定與異常熱區圖，模擬產線 AOI 場景。
 訓練資料只有正常品，不需要瑕疵標註，這是產線導入時最現實的前提：
 瑕疵樣本本來就稀少，而且新的瑕疵型態隨時會出現。
